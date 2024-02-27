@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+    <name>COM_N1ED</name>
+    <copyright>Copyright (c) 2024 EdSDK (https://n1ed.com/). All rights reserved.</copyright>
+    <author>EdSDK</author>
+    <authorEmail>support@helpdesk.edsdk.com</authorEmail>
+    <authorUrl>https://n1ed.com</authorUrl>
+    <copyright>Copyright (c) 2024 EdSDK (https://n1ed.com/). All rights reserved.</copyright>
+    <license>GPL3</license>
+    <creationDate>2024-12-25</creationDate>
+    <version>4.0.15</version>
+    <description>COM_N1ED_DESCRIPTION</description>
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>n1ed.php</filename>
+        <filename>controller.php</filename>
+        <folder>libraries</folder>
+    </files>
+    <languages folder="site">
+        <language tag="en-GB">languages/en-GB/en-GB.com_n1ed.ini</language>
+    </languages>
+    <administration>
+        <menu>COM_N1ED</menu><menu link="index.php?option=com_n1ed">COM_N1ED</menu>
+        <files folder="administrator">
+            <filename>index.html</filename>
+            <filename>n1ed.php</filename>
+            <filename>controller.php</filename>
+            <filename>config.xml</filename>
+            <filename>access.xml</filename>
+            <filename>LICENSE.txt</filename>
+            <folder>fields</folder>
+        </files>
+        <languages folder="administrator">
+            <language tag="en-GB">languages/en-GB/en-GB.com_n1ed.ini</language>
+            <language tag="en-GB">languages/en-GB/en-GB.com_n1ed.sys.ini</language>
+        </languages>
+    </administration>
+</extension>

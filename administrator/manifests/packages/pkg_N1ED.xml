@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="4.1">
+    <name>N1ED Package</name>
+    <author>EdSDK</author>
+    <authorEmail>support@helpdesk.edsdk.com</authorEmail>
+    <authorUrl>https://n1ed.com</authorUrl>
+    <packagename>N1ED</packagename>
+    <copyright>Copyright (c) 2024 EdSDK (https://n1ed.com/). All rights reserved.</copyright>
+    <license>GPL3</license>
+    <creationDate>2024-12-25</creationDate>
+    <version>4.0.15</version>
+    <url>https://n1ed.com/</url>
+    <packager>N1ED</packager>
+    <packagerurl>https://n1ed.com</packagerurl>
+    <description>N1ED package for Joomla 4</description>
+    <update>https://n1ed.com</update>
+
+    <updateservers>
+        <server
+      type="extension"
+      priority="1"
+      name="N1ED updates"
+    >https://n1ed.com/download/n1ed-joomla-update.xml</server>
+    </updateservers>
+
+    <files folder="packages">
+        <file type="component" id="n1ed">com_n1ed.zip</file>
+        <file type="plugin" id="n1ed" group="editors">plg_n1ed.zip</file>
+    </files>
+</extension>

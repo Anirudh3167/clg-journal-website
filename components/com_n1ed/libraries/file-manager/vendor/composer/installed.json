@@ -1,0 +1,62 @@
+{
+    "packages": [
+        {
+            "name": "edsdk/flmngr-server-php",
+            "version": "1.6.0",
+            "version_normalized": "1.6.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/edsdk/flmngr-server-php.git",
+                "reference": "5ea8b73b74ebcbc79323727cc780c6bdfd75152e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/edsdk/flmngr-server-php/zipball/5ea8b73b74ebcbc79323727cc780c6bdfd75152e",
+                "reference": "5ea8b73b74ebcbc79323727cc780c6bdfd75152e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-exif": "*",
+                "ext-gd": "*",
+                "ext-json": "*"
+            },
+            "time": "2023-07-14T12:02:24+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "EdSDK\\FlmngrServer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "EdSDK / N1ED / Flmngr team",
+                    "email": "support@n1ed.zendesk.com"
+                }
+            ],
+            "description": "Flmngr file manager PHP backend",
+            "homepage": "https://flmngr.com",
+            "keywords": [
+                "file",
+                "finder",
+                "image",
+                "imgpen",
+                "manager",
+                "server",
+                "upload"
+            ],
+            "support": {
+                "issues": "https://github.com/edsdk/flmngr-server-php/issues",
+                "source": "https://github.com/edsdk/flmngr-server-php/tree/1.6.0"
+            },
+            "install-path": "../edsdk/flmngr-server-php"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

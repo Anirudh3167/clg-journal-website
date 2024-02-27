@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<config>
+    <fieldset
+    name="global"
+    label="COM_N1ED_PARAMS"
+    addfieldpath="administrator/components/com_n1ed/fields"
+  >
+        <field
+      name="api_key"
+      type="apikey"
+      label="COM_N1ED_KEY_LABEL"
+      required="true"
+      filter="string"
+      default="N1J424RR"
+    />
+    </fieldset>
+</config>

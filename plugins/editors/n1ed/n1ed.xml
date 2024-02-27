@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="editors" method="upgrade">
+  <name>N1ED</name>
+  <creationDate>2024-12-25</creationDate>
+  <version>4.0.15</version>
+  <author>EdSDK</author>
+  <authorEmail>support@helpdesk.edsdk.com</authorEmail>
+  <authorUrl>https://n1ed.com</authorUrl>
+  <copyright>Copyright (c) 2024 EdSDK (https://n1ed.com/). All rights reserved.</copyright>
+  <license>GPL3</license>
+  <description>PLG_N1ED_KEY_DESC</description>
+  <files>
+    <filename plugin="n1ed">n1ed.php</filename>
+    <filename plugin="n1ed">LICENSE.txt</filename>
+    <filename plugin="n1ed">n1ed.xml</filename>
+    <filename plugin="n1ed">index.html</filename>
+    <folder>language</folder>
+  </files>
+  <languages folder="language">
+    <language tag="en-GB" >en-GB/en-GB.plg_editors_n1ed.ini</language>
+    <language tag="en-GB" >en-GB/en-GB.plg_editors_n1ed.sys.ini</language>
+  </languages>
+  <config>
+    <fields name="params">
+    </fields>
+  </config>
+</extension>
